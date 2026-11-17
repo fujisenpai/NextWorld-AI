@@ -1,0 +1,19 @@
+# AI Filipino Movies
+
+A responsive, single-page AI film portfolio inspired by the supplied reference screenshot.
+
+## Preview locally
+Open `index.html` in a modern browser. Internet access is needed for the remote thumbnail images and demo preview video.
+
+## Publish free with GitHub Pages
+1. Sign in or create a free account at https://github.com/
+2. Create a new public repository, for example `ai-filipino-movies`.
+3. Upload `index.html` to the repository root.
+4. Open **Settings → Pages**.
+5. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then Save.
+6. Wait for the published URL shown in the Pages section.
+
+## Add your own films
+Use the **＋ Add a film** button on the website. Enter a title, category, thumbnail URL, direct MP4 video URL, and description. Films added this way are saved in that browser/device only. To make films appear for every visitor, edit the `baseFilms` array in `index.html` and publish the updated file.
+
+For video playback, use a direct video file URL (usually ending in `.mp4`) hosted somewhere that permits embedding. A normal Facebook/YouTube page URL is not a direct MP4 file.
